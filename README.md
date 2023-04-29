@@ -1,20 +1,21 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pkg.template
+# quarto.workshop
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/emptyfield-ds/pkg.template/workflows/R-CMD-check/badge.svg)](https://github.com/emptyfield-ds/pkg.template/actions)
+[![R-CMD-check](https://github.com/emptyfield-ds/quarto.workshop/workflows/R-CMD-check/badge.svg)](https://github.com/emptyfield-ds/quarto.workshop/actions)
 <!-- badges: end -->
 
-The goal of pkg.template is to download learning materials for TODO, as
-well as to install any required packages. pkg.template also allows you
-to open a given module in RStudio Cloud.
+The goal of quarto.workshop is to download learning materials for
+Reproducible Research in R with Quarto, as well as to install any
+required packages. quarto.workshop also allows you to open a given
+module in Posit Cloud.
 
 ## Installation
 
-You can install the latest version of pkg.template with:
+You can install the latest version of quarto.workshop with:
 
 ``` r
 options(repos = c(
@@ -22,7 +23,7 @@ options(repos = c(
   CRAN = "https://cran.rstudio.com/"
 ))
 
-install.packages("pkg.template")
+install.packages("quarto.workshop")
 ```
 
 ## Installing modules
@@ -32,7 +33,7 @@ computer. Then, it will open a new RStudio Project containing the files
 you’ll need.
 
 ``` r
-pkg.template::use_module("module_name")
+quarto.workshop::use_module("module_name")
 ```
 
 By default, this package downloads the materials to a conspicuous place
@@ -40,15 +41,15 @@ like your Desktop. You can also tell `use_module()` exactly where to put
 the materials with `destdir`:
 
 ``` r
-pkg.template::use_module("module_name", destdir = "a/path/on/your/computer")
+quarto.workshop::use_module("module_name", destdir = "a/path/on/your/computer")
 ```
 
-## Opening modules in RStudio Cloud
+## Opening modules in Posit Cloud
 
-`browse_cloud()` opens a module in RStudio Cloud, where the materials
-and all necessary tooling will be pre-installed. This requires an
-RStudio Cloud account.
+`browse_cloud()` opens a module in Posit Cloud, where the materials and
+all necessary tooling will be pre-installed. This requires an Posit
+Cloud account.
 
 ``` r
-pkg.template::browse_cloud("module_name")
+quarto.workshop::browse_cloud("module_name")
 ```

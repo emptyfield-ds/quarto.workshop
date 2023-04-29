@@ -1,6 +1,6 @@
-#' Open learning materials in RStudio Cloud
+#' Open learning materials in Posit Cloud
 #'
-#' `browse_cloud()` will open an RStudio Cloud version of a given learning
+#' `browse_cloud()` will open an Posit Cloud version of a given learning
 #' module in your browser. The cloud version will have the packages and
 #' materials pre-installed.
 #'

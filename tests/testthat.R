@@ -1,4 +1,4 @@
 library(testthat)
-library(pkg.template)
+library(quarto.workshop)
 
-test_check("pkg.template")
+test_check("quarto.workshop")
